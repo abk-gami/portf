@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abk's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <a href="#" class="logo"><img src="images/logo.jpg" /></a>
+      <div class="bx bx-menu" id="menu-icon"></div>
+      <!-- <img src="images/menu.png" class="bx bx-menu" id="menu-icon" /> -->
+
+      <ul class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">My Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </header>
+
+    <!-- home -->
+    <section class="home" id="home">
+      <div class="home-text">
+        <h4>Hello</h4>
+        <h1>I'm Yahaya Abubakar </h1>
+        <h3>Mobile App Developer</h3>
+        <a href="#" class="btn">Hire Me</a>
+      </div>
+    </section>
+
+    <!-- about -->
+    <!-- <section class="about" id="about">
+      <div class="about-img">
+        <img src="images/abk.png" />
+      </div>
+
+      <div class="about-text">
+        <h2>About Me</h2>
+        <h4>Hi, Im Here To Help Your Next Project</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere
+          quaerat doloremque quod voluptates earum aspernatur et sequi in
+          voluptate perspiciatis hic voluptatum neque vero, laboriosam error,
+          quia ratione totam. this is a boy, thus is this boy, this boy is this,
+          this this boy is this this, thi boy is this thus and this, my nmae is
+          Yahaya Abubakar, i am a personnel
+        </p>
+        <div class="about-gri">
+          <div class="about-in">
+            <h5>1. Problem Solving</h5>
+          </div>
+
+          <div class="about-in">
+            <h5>2. Creative Idea</h5>
+          </div>
+
+          <div class="about-in">
+            <h5>3. Search a lot</h5>
+          </div>
+
+          <div class="about-in">
+            <h5>4. High Quality</h5>
+          </div>
+        </div>
+
+        <a href="#" class="btn">Contact Me</a>
+      </div>
+    </section> -->
+
+    <!-- About me  -->
+    <section class="about" id="about">
+      <div class="rows">
+        <div class="about-col-1">
+          <img src="images/abk.png" />
+        </div>
+        <div class="about-text">
+          <h2>About Me</h2>
+          <h4>Hi, Im Here To Help Your Next Project</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+            nam placeat accusamus excepturi! Reprehenderit, sit? Excepturi
+            molestias quae illo vitae optio modi dicta porro perferendis, dolor
+            esse accusantium asperiores debitis.
+          </p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">
+              Skills
+            </p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li>
+                <span>App Development</span><br />Building Android/ios apps
+              </li>
+              <li><span>Web Development</span><br />Web App development</li>
+              <li><span>UI/UX</span><br />Designing Web/App interfaces</li>
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li>
+                <span>2022 - Current</span><br />Website and Mobile development
+                training at Ahmfatya
+              </li>
+              <li>
+                <span>2021 - 2022</span><br />Sketchware mobile app developer
+              </li>
+              <li>
+                <span>2020 - 2021</span><br />UI/UX designer im my imaginations
+              </li>
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2021 - Current</span><br />B.Eng I.C.T from AFIT</li>
+              <li><span>2014 - 2020</span><br />SSCE from FSTC Orozo</li>
+              <li><span>2009 - 2014</span><br />Primary from Mumtaz</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services" id="services">
+      <div class="main-text">
+        <h2>My Services</h2>
+        <h4>Better Design, Better Experiences</h4>
+      </div>
+
+      <div class="services-content">
+        <div class="box">
+          <img src="images/ic_android_grey.png" />
+          <h3>Mobile App Design</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+            aperiam, vitae sed inventore repudiandae hic quod veniam recusandae,
+            exercitationem adipisci, dignissimos voluptas labore ipsa molestiae
+            assumenda et accusamus? Velit, neque?
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="images/ic_laptop_chromebook_white.png" />
+          <h3>E-Commerce Website</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+            aperiam, vitae sed inventore repudiandae hic quod veniam recusandae,
+            exercitationem adipisci, dignissimos voluptas labore ipsa molestiae
+            assumenda et accusamus? Velit, neque?
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="images/gmd_phonelink.png" class="tiny" />
+          <h3>Website Application</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+            aperiam, vitae sed inventore repudiandae hic quod veniam recusandae,
+            exercitationem adipisci, dignissimos voluptas labore ipsa molestiae
+            assumenda et accusamus? Velit, neque?
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- portfolio -->
+    <section class="portfolio" id="portfolio">
+      <div class="main-text">
+        <h2>My Portfolio</h2>
+        <h4>Some Of My Distinguished Works</h4>
+      </div>
+
+      <div class="portfolio-content">
+        <div class="row">
+          <img src="images/UI-UX Design.jpg" class="thumb" />
+          <div class="main-row">
+            <div class="row-text">
+              <h6>Development</h6>
+            </div>
+            <div class="row-icon">
+              <i class="bx bx-heart"></i>
+            </div>
+          </div>
+          <h3>Mobile app landing design and services</h3>
+        </div>
+
+        <div class="row">
+          <img src="images/UI-UX Design.jpg" class="thumb" />
+          <div class="main-row">
+            <div class="row-text">
+              <h6>Development</h6>
+            </div>
+            <div class="row-icon">
+              <i class="bx bx-heart"></i>
+            </div>
+          </div>
+          <h3>Mobile app landing design and services</h3>
+        </div>
+
+        <div class="row">
+          <img src="images/UI-UX Design.jpg" class="thumb" />
+          <div class="main-row">
+            <div class="row-text">
+              <h6>Development</h6>
+            </div>
+            <div class="row-icon">
+              <i class="bx bx-heart"></i>
+            </div>
+          </div>
+          <h3>Mobile app landing design and services</h3>
+        </div>
+
+        <div class="row">
+          <img src="images/UI-UX Design.jpg" class="thumb" />
+          <div class="main-row">
+            <div class="row-text">
+              <h6>Development</h6>
+            </div>
+            <div class="row-icon">
+              <i class="bx bx-heart"></i>
+            </div>
+          </div>
+          <h3>Mobile app landing design and services</h3>
+        </div>
+
+        <div class="row">
+          <img src="images/UI-UX Design.jpg" class="thumb" />
+          <div class="main-row">
+            <div class="row-text">
+              <h6>Development</h6>
+            </div>
+            <div class="row-icon">
+              <i class="bx bx-heart"></i>
+            </div>
+          </div>
+          <h3>Mobile app landing design and services</h3>
+        </div>
+
+        <div class="row">
+          <img src="images/UI-UX Design.jpg" class="thumb" />
+          <div class="main-row">
+            <div class="row-text">
+              <h6>Development</h6>
+            </div>
+            <div class="row-icon">
+              <i class="bx bx-heart"></i>
+            </div>
+          </div>
+          <h3>Mobile app landing design and services</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section class="contact" id="contact">
+      <div class="contact-text">
+        <h2>Contact Me</h2>
+        <h4>Let's Work Together</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
+          itaque rerum doloremque numquam ratione minima, distinctio veniam
+          commodi vel quasi earum voluptas sed quam est amet sapiente suscipit
+          perspiciatis? Dolorum.
+        </p>
+        <div class="contact-list">
+          <li><a href="#">Abubakar - Abuja - Nigeria</a></li>
+          <li><a href="#">abk@gami.com</a></li>
+          <li><a href="#">08077048651</a></li>
+        </div>
+
+        <div class="contact-icons">
+          <a href="#"><i class="bx bxl-linkedin"></i></a>
+          <a href="#"><i class="bx bxl-facebook"></i></a>
+          <a href="#"><i class="bx bxl-behance"></i></a>
+          <a href="#"><i class="bx bxl-instagram"></i></a>
+          <a href="#"><i class="bx bxl-twitter"></i></a>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <form action="">
+          <input type="" placeholder="Enter Your Name" required />
+          <input type="email" placeholder="Enter Your email" required />
+          <input type="" placeholder="Enter Your Subject" />
+          <textarea
+            name=""
+            id=""
+            cols="40"
+            rows="10"
+            placeholder="Enter Your Message"
+            required
+          ></textarea>
+          <input type="submit" value="Submit" class="send" />
+        </form>
+      </div>
+    </section>
+
+    <div class="last-text">
+      <p>Developed by ABK 2023</p>
+    </div>
+
+    <!-- scroll-top -->
+    <a href="#" class="top"><i class="bx bx-up-arrow-alt"></i></a>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- custom js link -->
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
