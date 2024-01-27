@@ -70,6 +70,7 @@ section{
     padding: 160px 6% 90px;
 }
 .contact-icons-2{
+    visibility: hidden;
     display: flex;
     justify-content: flex-end;
 }
@@ -496,6 +497,7 @@ form textarea{
     .home-text h1{
         font-size: var(--h2-font);
     }
+ 
     :root{
         --h1-font: 4.2rem;
         --h2-font: 2.9rem;
@@ -530,6 +532,9 @@ form textarea{
     #menu-icon{
         display: block;
     }
+    .contact-icons-2{
+        visibility: visible;
+    }
     .navbar{
         position: absolute;
         top: -600%;
@@ -548,6 +553,15 @@ form textarea{
     }
     .navbar.active{
         top: 100%;
+    }
+    .about-text h2{
+        text-align: center;
+    }
+    .about-text h4{
+        text-align: center;
+    }
+    .about-text p{
+        text-align: center;
     }
     :root{
         --h1-font: 3.7rem;
