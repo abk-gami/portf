@@ -126,7 +126,7 @@ section{
 .home-text h3{
     font-size: 25px;
     font-weight: 900;
-    margin-bottom: 3rem;
+    /* margin-bottom: 3rem; */
     text-align: center;
 }
 .btn{
