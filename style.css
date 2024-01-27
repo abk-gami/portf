@@ -70,8 +70,8 @@ section{
     padding: 160px 6% 90px;
 }
 .contact-icons-2{
-    visibility: hidden;
     display: flex;
+    display: none;
     justify-content: flex-end;
 }
 .contact-icons-2 i{
@@ -224,13 +224,6 @@ header.sticky{
 .tab-titles{
     display: flex;
     margin: 20px 0 40px;
-    justify-content: center;
-    align-items: center;
-}
-.tab-links.active-link{
-    /* display: flex; */
-    /* margin: 20px 0 40px; */
-    /* text-align: center; */
 }
 .tab-links{
     margin-right: 50px;
@@ -540,7 +533,15 @@ form textarea{
         text-align: center;
     }
     .contact{
+        display: none;
         grid-template-columns: 1fr;
+    }
+    .tab-contents.active-tab{
+        text-align: center;
+    }
+    .tab-titles{
+        justify-content: center;
+        align-items: center;
     }
 }
 
