@@ -224,11 +224,13 @@ header.sticky{
 .tab-titles{
     display: flex;
     margin: 20px 0 40px;
+    justify-content: center;
+    align-items: center;
 }
 .tab-links.active-link{
     /* display: flex; */
     /* margin: 20px 0 40px; */
-    text-align: center;
+    /* text-align: center; */
 }
 .tab-links{
     margin-right: 50px;
