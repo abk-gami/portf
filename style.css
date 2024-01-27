@@ -70,7 +70,6 @@ section{
     padding: 160px 6% 90px;
 }
 .contact-icons-2{
-    display: flex;
     display: none;
     justify-content: flex-end;
 }
@@ -114,6 +113,9 @@ section{
     line-height: 1.1;
     letter-spacing: 2px;
     text-align: center;
+}
+.home-text h1 span{
+    color: var(--text-color);
 }
 .home-text h4{
     font-size: 30px;
@@ -497,10 +499,6 @@ form textarea{
 
 
 @media (max-width: 970px){
-    .home-text h1{
-        font-size: var(--h2-font);
-    }
- 
     :root{
         --h1-font: 4.2rem;
         --h2-font: 2.9rem;
@@ -546,15 +544,18 @@ form textarea{
         justify-content: center;
         align-items: center;
     }
+    .contact-icons-2{
+    display: flex;   
+    }
 }
 
 
 @media (max-width: 830px){
+    .home-text h1{
+        font-size: var(--h2-font);
+    }
     #menu-icon{
         display: block;
-    }
-    .contact-icons-2{
-        visibility: visible;
     }
     .navbar{
         position: absolute;
