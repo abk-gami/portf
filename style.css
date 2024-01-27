@@ -449,7 +449,7 @@ form textarea{
     border-radius: 0.5rem;
 }
 #menu-icon{
-    background: var(--main-color);
+    color: var(--main-color);
 }
 
 @media (max-width: 1325px){
