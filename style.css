@@ -225,6 +225,11 @@ header.sticky{
     display: flex;
     margin: 20px 0 40px;
 }
+.tab-links.active-link{
+    /* display: flex; */
+    /* margin: 20px 0 40px; */
+    text-align: center;
+}
 .tab-links{
     margin-right: 50px;
     font-size: 18px;
@@ -510,6 +515,7 @@ form textarea{
         height: 85vh;
     }
     .about{
+        margin-top: 20px;
         grid-template-columns: 1fr;
     }
     .about-col-1, .about-text{
@@ -521,6 +527,15 @@ form textarea{
     .about-text{
         font-size: 16px;
         margin-right: 20px;
+    }
+    .about-text h2{
+        text-align: center;
+    }
+    .about-text h4{
+        text-align: center;
+    }
+    .about-text p{
+        text-align: center;
     }
     .contact{
         grid-template-columns: 1fr;
@@ -553,15 +568,6 @@ form textarea{
     }
     .navbar.active{
         top: 100%;
-    }
-    .about-text h2{
-        text-align: center;
-    }
-    .about-text h4{
-        text-align: center;
-    }
-    .about-text p{
-        text-align: center;
     }
     :root{
         --h1-font: 3.7rem;
