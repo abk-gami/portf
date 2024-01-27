@@ -128,7 +128,7 @@ section{
     text-align: center;
 }
 .btn{
-    display: inline-block;
+    display: flex;
     padding: 14px 40px;
     border-radius: 0.5rem;
     font-size: 17px;
@@ -137,6 +137,9 @@ section{
     color: var(--text-color);
     border: 1px solid var(--main-color);
     transition: all .40s ease;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
 }
 .btn:hover{
     transform: scale(1.01) translateY(-5px);
