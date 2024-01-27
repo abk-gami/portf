@@ -24,7 +24,6 @@
     height: auto;
 }
 body{
-    visibility: visible;
     background: var(--bg-color);
     color: var(--text-color);
 }
