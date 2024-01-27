@@ -10,6 +10,7 @@
 
 :root{
     --bg-color: #000000;
+    /* --bg-color: #03000d; */
     --text-color:#fff;
     --main-color: rgb(0, 255, 0);
     --second-color: gray;
@@ -23,6 +24,7 @@
     height: auto;
 }
 body{
+    visibility: visible;
     background: var(--bg-color);
     color: var(--text-color);
 }
@@ -380,6 +382,7 @@ header.sticky{
     color: var(--main-color);
 }
 .contact-icons i{
+    /* visibility: hidden; */
     height: 40px;
     width: 40px;
     background: #12141c;
