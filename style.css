@@ -621,7 +621,7 @@ form textarea{
     .home-text{
         /* padding-left: 30%; */
         display: flex;
-        justify-content: center;
+        /* justify-content: center; */
         align-items: center;
     }   
 }
