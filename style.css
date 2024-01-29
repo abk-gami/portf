@@ -633,7 +633,7 @@ form textarea{
     }   
 }
 
-@media (max-width: 319px){
+@media (max-width: 419px){
     :root{
         --h1-font: 3.7rem;
         --h2-font: 2.7rem;
