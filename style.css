@@ -102,7 +102,6 @@ section{
     background-position: center;
     display: flex;
     align-items: center;
-    /* justify-content: flex-start; */
     justify-content: center;
 }
 .home-text h1{
