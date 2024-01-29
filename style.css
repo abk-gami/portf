@@ -27,7 +27,7 @@
 body{
     background: var(--bg-color);
     color: var(--text-color);
-    zoom: 100%;
+    zoom: reset;
     min-zoom: 100%;
 }
 header{
