@@ -68,7 +68,6 @@ header{
 
 section{
     padding: 160px 6% 90px;
-    margin-left: 30%;
 }
 .contact-icons-2{
     display: none;
@@ -208,9 +207,9 @@ header.sticky{
 .about-col-1{
     display: flex;
     justify-content: center;
-    margin-left: -30%;
+    /* margin-left: -30%; */
     /* align-items: center; */
-    /* flex-basis: 100%; */
+    flex-basis: 100%;
     /* grid-template-columns: repeat(auto-fit, minmax(300px, auto));                            */
     /* grid-template-columns: 3fr; */
 }
@@ -622,6 +621,8 @@ form textarea{
 @media (max-width: 550px){
     section{
         width: 100%;
+        margin-left: 30%;
+
     }
     .home-text{
         /* padding-left: 30%; */
