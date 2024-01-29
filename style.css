@@ -197,7 +197,7 @@ header.sticky{
 
 /* about me */
 .rows{
-    display: flex;
+    display: flex; 
     justify-content: space-between;
     flex-wrap: wrap;
 }
