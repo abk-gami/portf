@@ -203,7 +203,7 @@ header.sticky{
 }
 .about-col-1{
     flex-basis: 35%;
-    /* grid-template-columns: repeat(auto-fit, minmax(300px, auto)); */
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
 }
 .about-col-1 img{
     display: flex;
@@ -218,11 +218,20 @@ header.sticky{
     align-items: center;
     justify-content: center;
     margin-top: 40px;
+    /* height: 25px; */
+    /* width: 25px; */
+    width: 50%;
+    height: fit-content;
 }
-.about-col-1 img{
-    width: 100%;
-    border-radius: 15px;
-}
+.skillz{
+    /* border-radius: 15px; */
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    align-items: center;
+    gap: 2rem;
+    margin-top: 5rem;
+} 
 .about-text{
     flex-basis: 60%;
 }
