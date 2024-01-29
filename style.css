@@ -220,7 +220,7 @@ header.sticky{
     padding: 14px 40px;
     margin-right: 10px;
     border-radius: 0.5rem;
-    background: var(--main-color);
+    /* background: var(--main-color); */
     /* color: var(--bg-color); */
     border: 1px solid var(--main-color);
     /* transition: all .40s ease; */
