@@ -14,6 +14,7 @@
     /* --bg-color: #03000d; */
     --text-color:#fff;
     --main-color: rgb(0, 255, 0);
+    --mains-color: rgb(22, 91, 22);
     --second-color: gray;
     --other-color:#12141c;
     --h1-font: 5.2rem;
@@ -220,9 +221,9 @@ header.sticky{
     padding: 14px 40px;
     margin-right: 10px;
     border-radius: 0.5rem;
-    /* background: var(--main-color); */
+    background: var(--mains-color);
     /* color: var(--bg-color); */
-    border: 1px solid var(--main-color);
+    /* border: 1px solid var(--main-color); */
     /* transition: all .40s ease; */
     /* align-items: center; */
     /* justify-content: center; */
