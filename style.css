@@ -207,7 +207,8 @@ header.sticky{
 }
 .about-col-1{
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
+    margin-left: -30%;
     /* align-items: center; */
     /* flex-basis: 100%; */
     /* grid-template-columns: repeat(auto-fit, minmax(300px, auto));                            */
