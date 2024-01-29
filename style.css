@@ -197,7 +197,7 @@ header.sticky{
 
 /* about me */
 .rows{
-    display: flex; 
+    /* display: flex;  */
     /* justify-content: space-between; */
     /* flex-wrap: wrap; */
     /* display: grid; */
@@ -205,9 +205,12 @@ header.sticky{
 
 }
 .about-col-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /* flex-basis: 100%; */
     /* grid-template-columns: repeat(auto-fit, minmax(300px, auto));                            */
-    grid-template-columns: 3fr;
+    /* grid-template-columns: 3fr; */
 }
 .about-col-1 img{
     padding: 14px 40px;
@@ -219,9 +222,9 @@ header.sticky{
     /* transition: all .40s ease; */
     /* align-items: center; */
     /* justify-content: center; */
-    margin-top: 20px;
+    /* margin-top: 20px; */
     width: 30%;
-    height: 90%;
+    height: 70%;
     object-fit: contain;
 }
 .skillz{
@@ -237,22 +240,28 @@ header.sticky{
 }
 .about-text h2{
     font-size: var(--h2-font);
+    text-align: center;
 }
 .about-text h4{
     margin: 10px 0;
     color: var(--main-color);
     font-size: 20px;
     font-weight: 600;
+    text-align: center;
+
 }
 .about-text p{
     color: var(--second-color);
     font-size: var(--p-font);
+    text-align: center;
     /* line-height: 30px; */
     /* margin-bottom: 2rem; */
 }
 .tab-titles{
     display: flex;
     margin: 20px 0 40px;
+    justify-content: center;
+    align-items: center;
 }
 .tab-links{
     margin-right: 50px;
@@ -289,6 +298,7 @@ header.sticky{
 }
 .tab-contents.active-tab{
     display: block;
+    text-align: center;
 }
 
 
@@ -604,4 +614,13 @@ form textarea{
         --h1-font: 3.7rem;
         --h2-font: 2.7rem;
     }
+}
+
+
+@media (max-width: 550px){
+body{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
 }
