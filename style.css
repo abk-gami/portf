@@ -619,7 +619,7 @@ form textarea{
 
 @media (max-width: 550px){
     .home-text{
-        padding-left: 30%;
+        /* padding-left: 30%; */
         display: flex;
         justify-content: center;
         align-items: center;
