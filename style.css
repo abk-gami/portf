@@ -631,7 +631,7 @@ form textarea{
         text-align: center;
     }   
     .about-col-1{
-        display: contents;
+        display: flex;
     }
 }
 
