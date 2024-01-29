@@ -68,6 +68,7 @@ header{
 
 section{
     padding: 160px 6% 90px;
+    margin-left: 20%;
 }
 .contact-icons-2{
     display: none;
@@ -206,8 +207,8 @@ header.sticky{
 }
 .about-col-1{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
     /* flex-basis: 100%; */
     /* grid-template-columns: repeat(auto-fit, minmax(300px, auto));                            */
     /* grid-template-columns: 3fr; */
@@ -618,10 +619,14 @@ form textarea{
 
 
 @media (max-width: 550px){
+    section{
+        width: 100%;
+    }
     .home-text{
         /* padding-left: 30%; */
         /* display: flex; */
         /* justify-content: center; */
         /* align-items: center; */
+        text-align: center;
     }   
 }
