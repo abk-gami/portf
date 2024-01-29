@@ -204,7 +204,7 @@ header.sticky{
 
 }
 .about-col-1{
-    display: flex;
+    /* display: flex; */
     /* justify-content: center; */
     /* margin-left: -30%; */
     /* align-items: center; */
