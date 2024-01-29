@@ -6,6 +6,7 @@
     list-style: none;
     text-decoration: none;
     scroll-behavior: smooth;
+    zoom: 100%;
 }
 
 :root{
@@ -26,6 +27,8 @@
 body{
     background: var(--bg-color);
     color: var(--text-color);
+    zoom: 100%;
+    min-zoom: 100%;
 }
 header{
     position: fixed;
@@ -629,10 +632,6 @@ form textarea{
         /* align-items: center; */
         text-align: center;
     }   
-    .about-col-1{
-        /* display: block; */
-        /* display: inline-block; */
-    }
     .about{
         margin-left: 5%;
 
