@@ -204,8 +204,8 @@ header.sticky{
 
 }
 .about-col-1{
-    /* display: flex; */
-    /* justify-content: center; */
+    display: flex;
+    justify-content: center;
     /* margin-left: -30%; */
     /* align-items: center; */
     /* flex-basis: 100%; */
@@ -630,6 +630,9 @@ form textarea{
         /* align-items: center; */
         text-align: center;
     }   
+    .about-col-1{
+        display: contents;
+    }
 }
 
 @media (max-width: 419px){
