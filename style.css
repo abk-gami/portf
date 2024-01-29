@@ -191,44 +191,77 @@ header.sticky{
 }
 .about-img img{
     height: auto;
-    width: 100%;
+    width: 100%; 
     max-width: 460px;
 } */
 
 /* about me */
 .rows{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    /* display: flex;  */
+    /* justify-content: space-between; */
+    /* flex-wrap: wrap; */
+    /* display: grid; */
+    /* grid-template-columns: repeat(auto-fit, minmax(500px, auto)); */
+
 }
 .about-col-1{
-    flex-basis: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-basis: 100%; */
+    /* grid-template-columns: repeat(auto-fit, minmax(300px, auto));                            */
+    /* grid-template-columns: 3fr; */
 }
 .about-col-1 img{
-    width: 100%;
-    border-radius: 15px;
+    padding: 14px 40px;
+    margin-right: 10px;
+    border-radius: 0.5rem;
+    background: var(--main-color);
+    /* color: var(--bg-color); */
+    border: 1px solid var(--main-color);
+    /* transition: all .40s ease; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* margin-top: 20px; */
+    width: 30%;
+    height: 70%;
+    object-fit: contain;
 }
+.skillz{
+    /* align-items: center; */
+    /* gap: 2rem; */
+    /* margin-top: 5rem; */
+    display: grid;
+    grid-template-columns: 3fr;
+    grid-template-columns: repeat(auto-fit, minmax(500px, auto));
+} 
 .about-text{
     flex-basis: 60%;
 }
 .about-text h2{
     font-size: var(--h2-font);
+    text-align: center;
 }
 .about-text h4{
     margin: 10px 0;
     color: var(--main-color);
     font-size: 20px;
     font-weight: 600;
+    text-align: center;
+
 }
 .about-text p{
     color: var(--second-color);
     font-size: var(--p-font);
+    text-align: center;
     /* line-height: 30px; */
     /* margin-bottom: 2rem; */
 }
 .tab-titles{
     display: flex;
     margin: 20px 0 40px;
+    justify-content: center;
+    align-items: center;
 }
 .tab-links{
     margin-right: 50px;
@@ -265,6 +298,7 @@ header.sticky{
 }
 .tab-contents.active-tab{
     display: block;
+    text-align: center;
 }
 
 
@@ -581,3 +615,13 @@ form textarea{
         --h2-font: 2.7rem;
     }
 }
+
+
+/* @media (max-width: 550px){
+    .home-text{
+        padding-left: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }   
+} */
