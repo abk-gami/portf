@@ -632,3 +632,15 @@ form textarea{
         text-align: center;
     }   
 }
+
+@media (max-width: 319px){
+    :root{
+        --h1-font: 3.7rem;
+        --h2-font: 2.7rem;
+    }
+
+    .home-text h1{
+        font-size: var(--h1-font);
+    }
+
+}
