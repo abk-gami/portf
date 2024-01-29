@@ -209,7 +209,7 @@ header.sticky{
     justify-content: center;
     /* margin-left: -30%; */
     /* align-items: center; */
-    flex-basis: 100%;
+    /* flex-basis: 100%; */
     /* grid-template-columns: repeat(auto-fit, minmax(300px, auto));                            */
     /* grid-template-columns: 3fr; */
 }
