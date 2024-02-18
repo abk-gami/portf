@@ -22,6 +22,12 @@
     --h2-font: 3.5rem;
     --p-font: 1.1rem;
 }
+body{
+    background: var(--bg-color);
+    color: var(--text-color);
+    zoom: reset;
+    min-zoom: 100%;
+}
 .portfolio-content{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, auto));
