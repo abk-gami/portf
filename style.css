@@ -351,6 +351,7 @@ h5{
     font-weight: 600;
     margin: 15px 0;
     transition: all .40s ease;
+    color: #fff;
 }
 .box p{
     color: var(--second-color);
