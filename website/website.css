@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    zoom: 100%;
+}
+
+:root{
+    /* --bg-color: #000000; */
+    /* --bg-color: #121212; */
+    --bg-color: #03000d;
+    --text-color:#fff;
+    --main-color: rgb(0, 255, 0);
+    --mains-color: rgb(22, 91, 22);
+    --second-color: gray;
+    --other-color:#12141c;
+    --h1-font: 5.2rem;
+    --h2-font: 3.5rem;
+    --p-font: 1.1rem;
+}
