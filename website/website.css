@@ -31,7 +31,8 @@ body{
 }
 .main-text{
     display: flex;
-    text-align: center;
+    /* text-align: center; */
+    align-self: center;
 }
 .portfolio-content{
     display: grid;
