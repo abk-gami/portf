@@ -29,6 +29,10 @@ body{
     min-zoom: 100%;
     padding: 15px;
 }
+.main-text{
+    display: flex;
+    text-align: center;
+}
 .portfolio-content{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, auto));
