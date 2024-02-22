@@ -30,7 +30,7 @@ body{
     padding: 15px;
 }
 .main-text{
-    /* display: flex; */
+    display: flex;
     /* text-align: center; */
     /* align-self: center; */
     align-items: center;
